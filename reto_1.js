@@ -1,9 +1,7 @@
-function wrapping(gifts) {
+wrapping = (gifts) => {
   return gifts.map(gift => {
     const envoltorio_vertical = "*".repeat(gift.length + 2)
-    return (
-      envoltorio_vertical + "\n*" + gift + "*\n" + envoltorio_vertical
-    )
+    return `${envoltorio_vertical}\n*${gift}*\n${envoltorio_vertical}`
   })
 }
 
