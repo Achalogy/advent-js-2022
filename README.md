@@ -4,6 +4,8 @@ Pd: Usa Word Wrap para poder ver bien los enunciados de los retos
 
 Si vienes a este repo a aprender JavaScript, te recomiendo conocer ya las bases del lenguaje.
 
+![Advent JS 2022](https://i.imgur.com/HUihoze.jpg)
+
 ## Estado: Reto 1 y 2 explicado
 
 ## Instalación
