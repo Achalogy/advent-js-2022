@@ -9,4 +9,4 @@ Instala Jest para las pruebas con:
 
 ## Tests
 
-Puedes comprobar los retos usando en tu terminal el comando `npm run jest`
+Puedes comprobar los retos usando en tu terminal el comando `npm run jest` q
