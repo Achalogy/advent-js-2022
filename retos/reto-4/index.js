@@ -1,9 +1,3 @@
-const boxes = [
-  { l: 1, w: 1, h: 1 },
-  { l: 3, w: 3, h: 3 },
-  { l: 2, w: 2, h: 2 }
-]
-
 function fitsInOneBox(boxes) {
   return boxes.sort((a, b) => {
     /* Ordena las cajas, sumando todos sus lados */
@@ -15,6 +9,4 @@ function fitsInOneBox(boxes) {
   })
 }
 
-console.log(
-  fitsInOneBox(boxes)
-)
+module.exports = fitsInOneBox

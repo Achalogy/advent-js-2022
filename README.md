@@ -6,7 +6,7 @@ Si vienes a este repo a aprender JavaScript, te recomiendo conocer ya las bases 
 
 ![Advent JS 2022](https://i.imgur.com/HUihoze.jpg)
 
-## Estado: Reto 1 y 2 explicado
+## Estado: Reto 1 - 4 explicados
 
 ## Instalación
 

@@ -26,7 +26,7 @@ Cosas a tener en cuenta:
 
 ## Análisis
 
-Debemos conseguir la longitud del nombre de cada reno y de cada regalo para luego dividir el peso maximo que pueden cargar los renos y el peso de cada caja, así tendremos muy probablemente un número tipo float, por tanto tendremos que redondearlo hacia abajo, ya que no podemos divir cajas.
+Debemos conseguir la longitud del nombre de cada reno y de cada regalo para luego dividir el peso máximo que pueden cargar los renos y el peso de cada caja, así tendremos muy probablemente un número tipo float, por tanto, tendremos que redondearlo hacia abajo, ya que no podemos dividir cajas.
 
 ## ¿Que vamos a usar? 
 
@@ -34,9 +34,9 @@ En esta solución solo usaremos cosas básicas de strings y arrays, como join y 
 
 ## Conseguir longitud de las palabras
 
-Podriamos mapear reno por reno y luego sumarlo, y hacer lo mismo con los regalos, pero simplemente podemos unir los nombres en un solo string y hayar su longitud. Es decir:
+Podríamos mapear reno por reno y luego sumarlo, y hacer lo mismo con los regalos, pero simplemente podemos unir los nombres en un solo string y hayar su longitud. Es decir:
 
-Tenemos dos renos, *Dasher* y *Dancer*, cada uno tiene 6 letras en su nombre, por lo tanto tenemos que cada reno puede cargar `6 * 2 = 12` de peso y juntos `(6 * 2) + (6 * 2) = 24`, pero si sumamos los dos nombres, tendremos la misma respusta, `12 * 2 = 24)`
+Tenemos dos renos, *Dasher* y *Dancer*, cada uno tiene 6 letras en su nombre, por lo tanto, tenemos que cada reno puede cargar `6 * 2 = 12` de peso y juntos `(6 * 2) + (6 * 2) = 24`, pero si sumamos los dos nombres, tendremos la misma respuesta, `12 * 2 = 24)`
 
 `["Dasher", "Dancer"].join("") = DasherDancer`
 
@@ -49,7 +49,7 @@ function distributeGifts(packOfGifts, reindeers) {
 
 ## Dividir los pesos
 
-Ya que podemos cargar hasta un maximo de 24 de peso y cada caja tenemos 12 de peso: `24 / 12 = 2 Cajas`, esta es una solución ideal, pero pongamos el siguiente ejemplo: 
+Ya que podemos cargar hasta un máximo de 24 de peso y cada caja tenemos 12 de peso: `24 / 12 = 2 Cajas`, esta es una solución ideal, pero pongamos el siguiente ejemplo: 
 
 ```js
 packOfGifts = ["book", "dog", "cat"]
@@ -68,7 +68,7 @@ parseInt(number)
 number >> 0
 ```
 
-Cualquier de estas formas te redondeara hacia abajo el número, o en otras palabras, quitara todo lo que este adelante de la coma flotante.
+Cualquier de estas formas te redondeará hacia abajo el número, o en otras palabras, quitara todo lo que este adelante de la coma flotante.
 
 ```js
 function distributeGifts(packOfGifts, reindeers) {
