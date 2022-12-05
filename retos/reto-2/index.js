@@ -8,3 +8,5 @@ function countHours(year, holidays) {
     )
   }).reduce((count, extraHour) => count + extraHour) * 2 // Con la lista de 1 y 0, va a sumar todos los números dentro y lo multiplicara por 2
 }
+
+module.exports = countHours

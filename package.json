@@ -4,7 +4,9 @@
   "description": "Repositorio donde estoy subiendo los retos de [Advent JS](https://adventjs.dev/)",
   "main": "reto_1.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:1": "jest -i retos/reto-1/reto1.test.js",
+    "test:2": "jest -i retos/reto-2/reto2.test.js"
   },
   "repository": {
     "type": "git",
