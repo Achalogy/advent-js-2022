@@ -1,4 +1,4 @@
-const wrapping = require('../reto_1')
+const wrapping = require('./index.js')
 
 test('Test #01 - Returns an Array', () => {
   expect(
