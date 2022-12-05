@@ -27,5 +27,5 @@ npm run test:1 # Correra el test del reto 1
 
 ## Achalogy
 
-Soy un estudiante de Ingieneria de Sistemas Colombiano, espero te haya gustado este repositorio y si eres un estudiante también y estas aprendiendo programación, te dejo este repositorio con algunos conceptos que aprendi en la comunidad de Midudev mientras desarrollaba el adviento navideño de 2022.
+Soy un estudiante de Ingeniería de Sistemas Colombiano, espero te haya gustado este repositorio y si eres un estudiante también y estás aprendiendo programación, te dejo este repositorio con algunos conceptos que aprendí en la comunidad de Midudev mientras desarrollaba el Adviento navideño de 2022.
 Puedes comprobar los retos usando en tu terminal el comando `npm run jest`.

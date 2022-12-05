@@ -12,9 +12,9 @@ const wrapped = wrapping(gifts)
 
 console.log(wrapped)
 /* [
-  "*****\\n*cat*\\n*****",
-  "******\\n*game*\\n******",
-  "*******\\n*socks*\\n*******"
+  "*****\\n*cat*\\n*****",
+  "******\\n*game*\\n******",
+  "*******\\n*socks*\\n*******"
 ] */
 ```
 
@@ -26,35 +26,35 @@ Como ves, el papel de regalo envuelve el string. Por arriba y por abajo, para no
 
 # Solución al Reto 1
 
-## Analisis
+## Análisis
 
-Necesitamos un script que nos convirta una palabra a esto:
+Necesitamos un script que nos envuelva una palabra en papel (*), es decir:
 
 ```
- ******
- *gato*
- ******
+ ******
+ *gato*
+ ******
 ```
 
-Es decir, que este cubierto por papel hasta en las esquinas, en este caso el papel es el simbolo *
+Es decir, qué este cubierto por papel hasta en las esquinas, en este caso el papel es el símbolo *
 
-## ¿Que vamos a usar?
-Ya que vamos a devolver más de una linea como respuesta, vamos a tener que usar `\n`, este simbolo crea un salto de linea, puedes probarlo con `console.log("linea 1\nlinea 2").
+## ¿Qué vamos a usar?
+Ya que vamos a devolver más de una línea como respuesta, vamos a tener que usar `\n`, este símbolo crea un salto de línea, puedes probarlo con `console.log("linea 1\nlinea 2").
 
 ## Solución propuesta
 
 ### Iterar en la lista de regalos
 ```js
 function wrapping(gifts) {
-  return gifts.map(gift => {})
+  return gifts.map(gift => {})
 }
 ```
 
-Para esto vamos a usar la función map de las listas, esta funcion retorna otra lista, por lo tanto podemos usarla para que luego de envolver en papel los regalos el array ya este formado sin necesidad de crear una variable y pushear uno por uno los regalos.
+Para esto vamos a usar la función map de las listas, esta función retorna otra lista, por lo tanto, podemos usarla para que luego de envolver en papel los regalos el array ya este formado sin necesidad de crear una variable y pushear uno por uno los regalos.
 
-`.map(gift => {})` va a ir elemento por elemento de array y este se llamara gift, gift es un argumento de la función flecha que esta dentro de la función map.
+`.map(gift => {})` va a ir elemento por elemento de array y este se llamará gift, gift es un argumento de la función flecha que está dentro de la función map.
 
-Osea:
+O sea:
 
 ```js
 .map(function(gift) {
@@ -70,19 +70,19 @@ Ya que podemos revisar elemento por elemento de la lista, vamos a encontrar la l
 
 ```js
 function wrapping(gifts) {
-  return gifts.map(gift => {
-    const papel = "*".repeat(gift.length + 2)
-  })
+  return gifts.map(gift => {
+    const papel = "*".repeat(gift.length + 2)
+  })
 }
 ```
 
-Definimos una varible donde almacenaremos el papel que va arriba y abajo de la palabra, y en este vamos a poner nuestro simbolo de papel, el *.
+Definimos una variable donde almacenaremos el papel que va arriba y abajo de la palabra, y en este vamos a poner nuestro símbolo de papel, el *.
 
 ```js 
 "*".repeat(n)
 ```
 
-Esto repetira n veces el string, por ejemplo si reemplazamos la n por 5, nos dara como resultado `*****`
+Esto repetirá n veces el string, por ejemplo si reemplazamos la n por 5, nos dará como resultado `*****`
 
 Pasamos `gift.length + 2` como n para obtener la longitud de la palabra y sumarle sus dos esquinas.
 
@@ -99,13 +99,13 @@ Pero nos falta agregar la palabra gato y el papel que va a los lados de la palab
 
 ### Palabra y papel horizontal
 
-Ahora solo debemos unir los papeles junto con la palabra, asi que vamos a retornar lo siguiente:
+Ahora solo debemos unir los papeles junto con la palabra, así que vamos a retornar lo siguiente:
 
 ```js
 return `${papel}\n*${gift}*\n${papel}`
 ```
 
-Usamos el simbolo ` para poder ejecutar codigo dentro de un String y mostrar su contenido, podemos poner varibles o el retorno de una función.
+Usamos el símbolo ` para poder ejecutar código dentro de un String y mostrar su contenido, podemos poner variables o el retorno de una función.
 
 ```js
 `${varible}` 
@@ -113,4 +113,4 @@ o
 `${funcion(a)}`
 ```
 
-Y recuerda añadir el papel horizontal `*${gift}*`, y los saltos de linea correspondientes.
+Y recuerda añadir el papel horizontal `*${gift}*`, y los saltos de línea correspondientes.
