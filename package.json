@@ -1,0 +1,23 @@
+{
+  "name": "advent-js-2022",
+  "version": "1.0.0",
+  "description": "Repositorio donde estoy subiendo los retos de [Advent JS](https://adventjs.dev/)",
+  "main": "reto_1.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Achalogy: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@github.com/Achalogy/advent-js-2022.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Achalogy/advent-js-2022/issues"
+  },
+  "homepage": "https://github.com/Achalogy/advent-js-2022#readme",
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
+}
