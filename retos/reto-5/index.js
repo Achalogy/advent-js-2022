@@ -1,26 +1,26 @@
 function getMaxGifts(giftsCities, maxGifts, maxCities) {
 
-  let combinations = [];
-  combinations.push([], [giftsCities[0]]);
-  giftsCities.splice(0, 1)
+  let combinaciones = [];
+  combinaciones.push([], [giftsCities[0]]);
+  giftsCities.shift()
 
   giftsCities.map(x => {
-    const _sub = combinations.map(subset => {
-      let s = [...subset]
-      if(s.length < maxCities) {
-        s.push(x)
+    const newList = combinaciones.map(combinacion => {
+      let _combinacion = [...combinacion]
+      if(_combinacion.length < maxCities) {
+        _combinacion.push(x)
       }
-      return s
+      return _combinacion
     })
-    combinations = [...combinations, ..._sub]
+    combinaciones = combinaciones.concat(newList)
   })
 
-  combinations.splice(0, 1)
+  combinaciones.shift()
 
   return Math.max(
-    ...combinations.map(x => {
-      let res = x.reduce((total, num) => total + num)
-      return res > maxGifts ? 0 : res
+    ...combinaciones.map(x => {
+      let sum = x.reduce((total, num) => total + num)
+      return sum > maxGifts ? 0 : sum
     })
   )
 

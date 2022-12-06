@@ -16,7 +16,11 @@ Instala Jest para las pruebas con:
 
 ## Tests
 
-Puedes comprobar los retos usando en tu terminal el comando `npm run jest`. Cambia el nombre del archivo principal de cada carpeta `index.js` y crea tu propio `index.js` si quieres validar tu solución fuera de la pagina web.
+Puedes comprobar los retos usando en tu terminal el comando `npm run jest`.
+Si quieres probar tus propios scripts, tienes dos opciones:
+
+1. Cambiar de nombre el archivo `index.js` y crear tu propio `index.js`
+2. Comentar la función en el archivo `index.js` y crear tu propia función
 
 ```bash
 npm run test # Para correr todos los test de todos los retos
