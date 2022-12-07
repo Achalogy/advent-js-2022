@@ -1,8 +1,5 @@
 # 🌟 | Advent JS - Achalogy
-Repositorio donde estoy subiendo los retos de [Advent JS](https://adventjs.dev/)
-Pd: Usa Word Wrap para poder ver bien los enunciados de los retos
-
-Si vienes a este repo a aprender JavaScript, te recomiendo conocer ya las bases del lenguaje.
+Repositorio donde estoy subiendo y explicando los retos de [Advent JS](https://adventjs.dev/)
 
 ![Advent JS 2022](https://i.imgur.com/HUihoze.jpg)
 
