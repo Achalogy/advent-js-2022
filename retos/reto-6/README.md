@@ -50,7 +50,7 @@ const cube = createCube(2)
  - Asegúrate de usar los símbolos correctos.
  - Cada nueva línea del cubo debe terminar con un salto de línea (\n) excepto la última.
 
-# Solución al reto 5
+# Solución al reto 6
 
 ## Análisis
 
