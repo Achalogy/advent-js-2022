@@ -16,6 +16,7 @@ Si vienes a este repo a aprender JavaScript, te recomiendo conocer ya las bases 
 | 04  |      Una caja dentro de otra caja y otra...       |       🟠       | [Ver](https://adventjs.dev/challenges/2022/4) | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-4) |
 | 05  |            Optimizando viajes de Santa            |       🔴       | [Ver](https://adventjs.dev/challenges/2022/5) | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-5) |
 | 06  |             Creando adornos navideños             |       🟠       | [Ver](https://adventjs.dev/challenges/2022/6) | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-6) |
+| 07  |             Creando adornos navideños             |       🟠       | [Ver](https://adventjs.dev/challenges/2022/7) | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-7) |
 
 [^1]: **Dificultad**: 🟢 Facil 🟠 Media 🔴 Dificil 🟣 Muy Dificil
 
