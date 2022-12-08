@@ -11,7 +11,8 @@
     "test:4": "jest -i retos/reto-4/reto4.test.js",
     "test:5": "jest -i retos/reto-5/reto5.test.js",
     "test:6": "jest -i retos/reto-6/reto6.test.js",
-    "test:7": "jest -i retos/reto-7/reto7.test.js"
+    "test:7": "jest -i retos/reto-7/reto7.test.js",
+    "test:8": "jest -i retos/reto-8/reto8.test.js"
   },
   "repository": {
     "type": "git",
