@@ -14,6 +14,7 @@ Repositorio donde estoy subiendo y explicando los retos de [Advent JS](https://a
 | 05  |            Optimizando viajes de Santa            |       🔴       | [Ver](https://adventjs.dev/challenges/2022/5) | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-5) |
 | 06  |             Creando adornos navideños             |       🟠       | [Ver](https://adventjs.dev/challenges/2022/6) | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-6) |
 | 07  |           Haciendo inventario de regalos          |       🟢       | [Ver](https://adventjs.dev/challenges/2022/7) | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-7) |
+| 08  |              ¡Necesitamos un mecánico!            |       🟠       | [Ver](https://adventjs.dev/challenges/2022/8) | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-8) |
 
 [^1]: **Dificultad**: 🟢 Facil 🟠 Media 🔴 Dificil 🟣 Muy Dificil
 
