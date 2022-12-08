@@ -6,10 +6,11 @@ function checkPart(part) {
 }
 
 function checkPartOptimized(part) {
-  return [...part].some((_, i, x) => {
-    const tr = x.filter((_, k) => i != k);
-    return tr.join("") == tr.reverse().join("");
-  });
+  let arr = [...part].slice(1);
+  let rev = [...part].reverse();
+  let x = arr.join("") == arr.reverse().join("");
+  let y = [...part].reduce((x, y, i) => x + (rev[i] != y), 0);
+  return x || y <= 2;
 }
 
 module.exports = checkPart
