@@ -109,10 +109,10 @@ Pero esto nos dará como resultado o un True o un False, por lo tanto, usaré un
 ```js
 [1, 2, 3, 4, 5].includes(
   date.getDay()
-) ? 1 : 0
+)
 ```
 
-Con esto, retornará 1 si hace parte de la semana, o 0 si es fin de semana.
+A la hora de sumar, `true = 1` y `false = 0`
 
 ### Calcular las horas extra a recuperar
 
