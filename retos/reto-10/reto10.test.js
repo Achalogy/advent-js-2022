@@ -83,3 +83,9 @@ test('Test #14 - checkJump([1, 2, 3, 1, 3, 1])', () => {
     checkJump([1, 2, 3, 1, 3, 1])
   ).toStrictEqual(false)
 })
+
+test('Test #15 - checkJump([1, 3, 2, 5, 4, 3, 2, 1])', () => {
+  expect(
+    checkJump([1, 3, 2, 5, 4, 3, 2, 1])
+  ).toStrictEqual(false)
+})
