@@ -14,7 +14,9 @@
     "test:7": "jest -i retos/reto-7/reto7.test.js",
     "test:8": "jest -i retos/reto-8/reto8.test.js",
     "test:9": "jest -i retos/reto-9/reto9.test.js",
-    "test:10": "jest -i retos/reto-10/reto10.test.js"
+    "test:10": "jest -i retos/reto-10/reto10.test.js",
+    "test:11": "jest -i retos/reto-11/reto11.test.js",
+    "test:12": "jest -i retos/reto-12/reto12.test.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,7 @@
   },
   "homepage": "https://github.com/Achalogy/advent-js-2022#readme",
   "dependencies": {
+    "@types/jest": "^29.2.4",
     "jest": "^29.3.1"
   }
 }
