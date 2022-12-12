@@ -7,16 +7,18 @@ Repositorio donde estoy subiendo y explicando los retos de [Advent JS](https://a
 
 |  #  |                  Nombre del Reto                  | Dificultad[^1] |                  Descripción                   |                                  Solución                                     |
 | :-: | :-----------------------------------------------: | :------------: | :---------------------------------------------:| :--------------------------------------------------------------------------:  |
-| 01  |    ¡Automatizando envolver regalos de navidad!    |       🟢       | [Ver](https://adventjs.dev/challenges/2022/1)  | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-1)  |
-| 02  |         Nadie quiere hacer horas extra            |       🟢       | [Ver](https://adventjs.dev/challenges/2022/2)  | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-2)  |
-| 03  | ¿Cuántas cajas de regalos puede llevar Papá Noel? |       🟢       | [Ver](https://adventjs.dev/challenges/2022/3)  | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-3)  |
-| 04  |      Una caja dentro de otra caja y otra...       |       🟠       | [Ver](https://adventjs.dev/challenges/2022/4)  | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-4)  |
-| 05  |            Optimizando viajes de Santa            |       🔴       | [Ver](https://adventjs.dev/challenges/2022/5)  | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-5)  |
-| 06  |             Creando adornos navideños             |       🟠       | [Ver](https://adventjs.dev/challenges/2022/6)  | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-6)  |
-| 07  |           Haciendo inventario de regalos          |       🟢       | [Ver](https://adventjs.dev/challenges/2022/7)  | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-7)  |
-| 08  |              ¡Necesitamos un mecánico!            |       🟠       | [Ver](https://adventjs.dev/challenges/2022/8)  | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-8)  |
-| 09  |             Las locas luces de Navidad            |       🟢       | [Ver](https://adventjs.dev/challenges/2022/9)  | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-9)  |
-| 10  |          El salto del trineo de Papá Noel         |       🟠       | [Ver](https://adventjs.dev/challenges/2022/10) | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-10) |
+| 01 |    ¡Automatizando envolver regalos de navidad!    |       🟢       | [Ver](https://adventjs.dev/challenges/2022/1)  | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-1)  |
+| 02 |         Nadie quiere hacer horas extra            |       🟢       | [Ver](https://adventjs.dev/challenges/2022/2)  | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-2)  |
+| 03 | ¿Cuántas cajas de regalos puede llevar Papá Noel? |       🟢       | [Ver](https://adventjs.dev/challenges/2022/3)  | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-3)  |
+| 04 |      Una caja dentro de otra caja y otra...       |       🟠       | [Ver](https://adventjs.dev/challenges/2022/4)  | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-4)  |
+| 05 |            Optimizando viajes de Santa            |       🔴       | [Ver](https://adventjs.dev/challenges/2022/5)  | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-5)  |
+| 06 |             Creando adornos navideños             |       🟠       | [Ver](https://adventjs.dev/challenges/2022/6)  | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-6)  |
+| 07 |           Haciendo inventario de regalos          |       🟢       | [Ver](https://adventjs.dev/challenges/2022/7)  | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-7)  |
+| 08 |              ¡Necesitamos un mecánico!            |       🟠       | [Ver](https://adventjs.dev/challenges/2022/8)  | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-8)  |
+| 09 |             Las locas luces de Navidad            |       🟢       | [Ver](https://adventjs.dev/challenges/2022/9)  | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-9)  |
+| 10 |          El salto del trineo de Papá Noel         |       🟠       | [Ver](https://adventjs.dev/challenges/2022/10) | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-10) |
+| 11 |             Papá Noel es Scrum Master             |       🔴       | [Ver](https://adventjs.dev/challenges/2022/11) | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-11) |
+| 12 |             Trineos eléctricos, ¡guau!            |       🟠       | [Ver](https://adventjs.dev/challenges/2022/12) | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-12) |
 
 [^1]: **Dificultad**: 🟢 Facil 🟠 Media 🔴 Dificil 🟣 Muy Dificil
 
