@@ -1,6 +1,6 @@
 function selectSleigh(distance, sleighs) {
-  let list = sleighs.filter(x => (20 / x.consumption) >= distance).at(-1)
-  return list == null ? null : list.name
+  let sleigh = sleighs.filter(x => (20 / x.consumption) >= distance).at(-1)
+  return sleigh ? sleigh.name : null
 }
 
 module.exports = selectSleigh
