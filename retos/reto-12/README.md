@@ -38,7 +38,7 @@ selectSleigh(distance, sleighs) // => "Dancer"
  - Tienes que devolver el nombre del mejor trineo que nos permita cubrir la distancia con los vatios que tenemos disponibles.
  - Si ningún trineo es usable para la distancia, devuelve null.
 
-# Solución Reto 11
+# Solución Reto 12
 
 ## Análisis Reto 10
 
