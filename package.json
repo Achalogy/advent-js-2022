@@ -16,7 +16,8 @@
     "test:9": "jest -i retos/reto-9/reto9.test.js",
     "test:10": "jest -i retos/reto-10/reto10.test.js",
     "test:11": "jest -i retos/reto-11/reto11.test.js",
-    "test:12": "jest -i retos/reto-12/reto12.test.js"
+    "test:12": "jest -i retos/reto-12/reto12.test.js",
+    "test:13": "jest -i retos/reto-13/reto13.test.js"
   },
   "repository": {
     "type": "git",
