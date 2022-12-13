@@ -19,6 +19,7 @@ Repositorio donde estoy subiendo y explicando los retos de [Advent JS](https://a
 | 10 |          El salto del trineo de Papá Noel         |       🟠       | [Ver](https://adventjs.dev/challenges/2022/10) | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-10) |
 | 11 |             Papá Noel es Scrum Master             |       🔴       | [Ver](https://adventjs.dev/challenges/2022/11) | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-11) |
 | 12 |             Trineos eléctricos, ¡guau!            |       🟠       | [Ver](https://adventjs.dev/challenges/2022/12) | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-12) |
+| 13 |         Backup de los archivos de Papá Noel       |       🟢       | [Ver](https://adventjs.dev/challenges/2022/13) | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-13) |
 
 [^1]: **Dificultad**: 🟢 Facil 🟠 Media 🔴 Dificil 🟣 Muy Dificil
 
