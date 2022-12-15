@@ -21,6 +21,7 @@ Repositorio donde estoy subiendo y explicando los retos de [Advent JS](https://a
 | 12 |             Trineos eléctricos, ¡guau!            |       🟠       | [Ver](https://adventjs.dev/challenges/2022/12) | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-12) |
 | 13 |         Backup de los archivos de Papá Noel       |       🟢       | [Ver](https://adventjs.dev/challenges/2022/13) | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-13) |
 | 14 |                  El mejor camino                  |       🟠       | [Ver](https://adventjs.dev/challenges/2022/14) | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-14) |
+| 15 |           Decorando el árbol de Navidad           |       🟠       | [Ver](https://adventjs.dev/challenges/2022/15) | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-15) |
 
 [^1]: **Dificultad**: 🟢 Facil 🟠 Media 🔴 Dificil 🟣 Muy Dificil
 
