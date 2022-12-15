@@ -23,6 +23,4 @@ function decorateTree(base) {
     , [base]).slice(0, base.length).map(x => x.join(" ")).reverse()
 }
 
-decorateTree('R R P R R')
-
 module.exports = decorateTree
