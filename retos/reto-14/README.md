@@ -6,7 +6,7 @@ Cada reno comienza en la cima de la pirámide y debe elegir el camino óptimo ha
 
 Al llegar a una posición, el reno **solo puede deslizarse hacia abajo y en diagonal hacia la izquierda o la derecha**. Visualmente, la pirámide se ve así:
 
-``js
+```js
     0
    / \
   7   4
