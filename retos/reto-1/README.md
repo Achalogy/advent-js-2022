@@ -26,6 +26,7 @@ Como ves, el papel de regalo envuelve el string. Por arriba y por abajo, para no
 
 # Solución al Reto 1
 
+[Video De YouTube](https://youtu.be/AlsPi16-xgI)
 ## Análisis
 
 Necesitamos un script que nos envuelva una palabra en papel (*), es decir:
