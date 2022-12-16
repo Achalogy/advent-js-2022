@@ -10,7 +10,7 @@ test('Test #1 - Retorna un String', () => {
 
 test('Test #2 - fixLetter(` hello,  how are you??     do you know if santa claus exists?  i really hope he does!  bye  `)', () => {
   expect(
-    fixLetter(` hello,  how are you??     do you know if santa claus exists?  i really hope he does!  bye  `)
+    fixLetter(` hello,how are you??     do you know if santa claus exists?  i really hope he does!  bye  `)
   ).toBe("Hello, how are you? Do you know if Santa Claus exists? I really hope he does! Bye.")
 })
 
