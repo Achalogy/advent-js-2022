@@ -81,7 +81,7 @@ Si no guardamos `([,.?!])`en `$2` perderemos la letra que este luego del espacio
 letter.replace(/\s+/g, ' ')
 
 // Reemplazaremos todos los \s (Espacios, tabulaciones y saltos de linea)
-// El simbolo + significa que tomara todas las repeticiones, es decir si hay 3 espacios, los tomara, de lo contrario tomaria uno por uno y reemplazaria un espacio con un espacio.
+// El simbolo + significa que se puede repetir, es decir si hay 1, 2, 3, 4, o cualquier cantidad de \s, los tomara, de lo contrario tomaria uno por uno y reemplazaria un espacio con un espacio.
 ```
 
 ## Las preguntas sólo deben terminar con un signo de interrogación
