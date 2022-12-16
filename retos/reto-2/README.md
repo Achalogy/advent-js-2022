@@ -27,6 +27,7 @@ Cosas a tener en cuenta y consejos:
 
 # Solución al Reto 2
 
+[Video De YouTube](https://youtu.be/ffPb7gMjaNE)
 ## Análisis
 
 Debemos recibir una lista de días festivos y validar cuáles de ellos caen en horario de trabajo (lunes a viernes). Si cumple esta condición tendremos que sumar 2 horas al total de horas a recuperar.
