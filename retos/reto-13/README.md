@@ -34,18 +34,18 @@ getFilesToBackup(lastBackup, changes) // => [ 1, 3 ]
 
 **Recuerda que:**
 
- - Devuelve la id de los archivos que han sido modificados después del último backup.
- - Devuelve un array vacío si no hay archivos que hacer backup.
- - Recuerda que deben estar ordenados los id de forma ascendente.
+ - Devuelve la id de los archivos que han sido modificados después del último backup.
+ - Devuelve un array vacío si no hay archivos que hacer backup.
+ - Recuerda que deben estar ordenados los id de forma ascendente.
 
 # Solución Reto 13
 
 ## Análisis Reto 13
 
-1. Filtrar las fechas posteriores al último backup
-2. Obtener la id
-3. Ordenar las ids
-4. Quitar las ids repetidas
+ 1. Filtrar las fechas posteriores al último backup
+ 2. Obtener la id
+ 3. Ordenar las ids
+ 4. Quitar las ids repetidas
 
 ## Filtrar las fechas
 

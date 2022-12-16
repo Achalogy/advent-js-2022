@@ -33,18 +33,18 @@ selectSleigh(distance, sleighs) // => "Dancer"
 
 **Recuerda que:**
 
- - La batería siempre es de 20W.
- - La lista de trineos está ordenada de peor a mejor trineo.
- - Tienes que devolver el nombre del mejor trineo que nos permita cubrir la distancia con los vatios que tenemos disponibles.
- - Si ningún trineo es usable para la distancia, devuelve null.
+ - La batería siempre es de 20W.
+ - La lista de trineos está ordenada de peor a mejor trineo.
+ - Tienes que devolver el nombre del mejor trineo que nos permita cubrir la distancia con los vatios que tenemos disponibles.
+ - Si ningún trineo es usable para la distancia, devuelve null.
 
 # Solución Reto 12
 
 ## Análisis Reto 12
 
-1. Encontrar los que pueden recorrer la distancia con un máximo de consumo de 20W
-2. Filtrar la lista con esa condición
-3. Retornar el último de la lista, o si no hay, retornar `null`
+ 1. Encontrar los que pueden recorrer la distancia con un máximo de consumo de 20W
+ 2. Filtrar la lista con esa condición
+ 3. Retornar el último de la lista, o si no hay, retornar `null`
 
 ## Max Consumo 20W 
 

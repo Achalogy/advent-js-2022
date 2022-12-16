@@ -2,15 +2,15 @@
 
 Papá Noel está empezando a recibir un montón de cartas pero tienen un montón de problemas de formato. Para mejorar la lectura, va a escribir un programa que, dado un texto, lo formatea de acuerdo a las siguientes reglas:
 
- - Eliminar espacios al inicio y al final
- - Eliminar múltiples espacios en blanco y dejar sólo uno
- - Dejar un espacio después de cada coma
- - Quitar espacios antes de coma o punto
- - Las preguntas sólo deben terminar con un signo de interrogación
- - La primera letra de cada oración debe estar en mayúscula
- - Poner en mayúscula la palabra "Santa Claus" si aparece en la carta
- - Poner un punto al final de la frase si no tiene puntuación
- - Las cartas las escriben inglés y aquí 
+ - Eliminar espacios al inicio y al final
+ - Eliminar múltiples espacios en blanco y dejar sólo uno
+ - Dejar un espacio después de cada coma
+ - Quitar espacios antes de coma o punto
+ - Las preguntas sólo deben terminar con un signo de interrogación
+ - La primera letra de cada oración debe estar en mayúscula
+ - Poner en mayúscula la palabra "Santa Claus" si aparece en la carta
+ - Poner un punto al final de la frase si no tiene puntuación
+ - Las cartas las escriben inglés y aquí 
  
 Tenemos un ejemplo:
 
@@ -24,8 +24,8 @@ fixLetter("  Hi Santa claus. I'm a girl from Barcelona , Spain . please, send m
 
 **A tener en cuenta:**
 
- - No te tienes que preocupar por los signos de puntuación que no sean coma, punto o interrogación.
- - Asegúrate de respetar los saltos de línea y espacios originales.
+ - No te tienes que preocupar por los signos de puntuación que no sean coma, punto o interrogación.
+ - Asegúrate de respetar los saltos de línea y espacios originales.
 
 # Solución Reto 16
 
@@ -35,15 +35,15 @@ Usaremos [Expresiones Regulares](https://developer.mozilla.org/en-US/docs/Web/Ja
 
 Lo haremos en el siguiente orden:
 
- 1. Dejar un espacio después de cada coma, punto o signo de exclamación o interrogación.
- 2. Eliminar múltiples espacios en blanco y dejar sólo uno.
- 3. Las preguntas sólo deben terminar con un signo de interrogación.
- 4. La primera letra de cada oración debe estar en mayúscula.
- 5. Poner en mayúscula la palabra "Santa Claus" si aparece en la carta.
- 6. Eliminar espacios al inicio y al final.
- 7. Quitar espacios antes de coma o punto.
- 8. La primer letra de la carta debe estar en mayúscula.
- 9. Poner un punto al final de la frase si no tiene puntuación.
+ 1. Dejar un espacio después de cada coma, punto o signo de exclamación o interrogación.
+ 2. Eliminar múltiples espacios en blanco y dejar sólo uno.
+ 3. Las preguntas sólo deben terminar con un signo de interrogación.
+ 4. La primera letra de cada oración debe estar en mayúscula.
+ 5. Poner en mayúscula la palabra "Santa Claus" si aparece en la carta.
+ 6. Eliminar espacios al inicio y al final.
+ 7. Quitar espacios antes de coma o punto.
+ 8. La primer letra de la carta debe estar en mayúscula.
+ 9. Poner un punto al final de la frase si no tiene puntuación.
 
 ```
 g modifier: global. Esto permite reemplazar todas las partes del texto en que se cumpla el regex

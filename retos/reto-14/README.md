@@ -43,10 +43,10 @@ getOptimalPath([[1], [1, 5], [7, 5, 8], [9, 4, 1, 3]]) // 8
 
 **A tener en cuenta:**
 
- - Ten en cuenta que sólo puedes bajar en diagonal y hacia abajo desde cualquier posición.
- - La primera posición de la pirámide puede ser diferente a 0.
- - Las pirámides pueden tener hasta 10 niveles.
- - Los números en las pirámides pueden ser negativos.
+ - Ten en cuenta que sólo puedes bajar en diagonal y hacia abajo desde cualquier posición.
+ - La primera posición de la pirámide puede ser diferente a 0.
+ - Las pirámides pueden tener hasta 10 niveles.
+ - Los números en las pirámides pueden ser negativos.
 
 ## Análisis Reto 14
 

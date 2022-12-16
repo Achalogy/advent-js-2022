@@ -35,17 +35,17 @@ Necesitamos que el programa devuelva un `boolean` que indique si el trineo hace 
 
 **A tener en cuenta:**
 
-- ara que el salto sea válido tiene que subir una vez y bajar una vez. Si durante el salto se queda en la misma altura entre dos posiciones, la parábola continua.
-- o hace falta que el punto de inicio y final sean el mismo (las ciudades pueden estar a diferentes alturas).
+ - ara que el salto sea válido tiene que subir una vez y bajar una vez. Si durante el salto se queda en la misma altura entre dos posiciones, la parábola continua.
+ - o hace falta que el punto de inicio y final sean el mismo (las ciudades pueden estar a diferentes alturas).
 
 # Solución Reto 10
 
 ## Análisis Reto 10
 
-1. Separaremos la lista de números justo en donde está el número más alto
-2. Validar que todos los números de lado izquierdo van de menor a mayor
-3. Validar que todos los números de lado derecho van de mayor a menor
-4. Añadir comprobaciones de parábolas válidas: Que no sea una función matemática constante o una función matemática lineal.
+ 1. Separaremos la lista de números justo en donde está el número más alto
+ 2. Validar que todos los números de lado izquierdo van de menor a mayor
+ 3. Validar que todos los números de lado derecho van de mayor a menor
+ 4. Añadir comprobaciones de parábolas válidas: Que no sea una función matemática constante o una función matemática lineal.
 
 ## Separar la lista
 
