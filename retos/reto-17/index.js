@@ -1,18 +1,24 @@
 function carryGifts(gifts, maxWeight) {
-  const bags = []
+  if (!gifts.every(gift => maxWeight >= gift.length)) {
+    return []
+  }
 
-  const lastAcc = gifts.reduce((acc, gift) => {
-    const accLength = acc.replaceAll(" ", "").length
-    const giftLength = gift.replaceAll(" ", "").length
+  let carry = ['']
 
-    if (accLength + giftLength <= maxWeight)
-      return `${acc} ${gift}`
-    else if (giftLength <= maxWeight) bags.push(acc)
-    return gift
+  gifts.forEach(gift => {
+    const previousWeight = carry.at(-1).replace(/ /g, '').length
+
+    if ((previousWeight + gift.length) <= maxWeight) {
+      carry[carry.length - 1] += ' ' + gift
+      carry[carry.length - 1] = carry[carry.length - 1].trim()
+      return
+    }
+
+    carry.push(gift)
   })
-  if (lastAcc.replaceAll(" ", "").length <= maxWeight) bags.push(lastAcc)
 
-  return bags
+
+  return carry
 }
 
 module.exports = carryGifts
