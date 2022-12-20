@@ -1,5 +1,5 @@
 function checkPart(part) {
-  return [...part].some((x, i, arr) => {
+  return [...part].some((_, i, arr) => {
     let w = arr.filter((_, y) => y != i)
     return w.join("") == w.reverse().join("")
   })
