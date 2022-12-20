@@ -7,7 +7,7 @@ function carryGifts(gifts, maxWeight) {
     const previousWeight = carry.at(-1).replace(/ /g, '').length
     if ((previousWeight + gift.length) <= maxWeight) {
       carry[carry.length - 1] += ' ' + gift
-      carry[carry.length - 1] = carry[carry.length - 1]
+      carry[carry.length - 1] = carry[carry.length - 1].trim()
       return
     }
     carry.push(gift)
