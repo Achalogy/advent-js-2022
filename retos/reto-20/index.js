@@ -1,20 +1,29 @@
 function howManyReindeers(reindeerTypes, gifts) {
   return gifts.map((gift) => {
-    let currentMax = gift.weight;
-    let weights = Object.values(reindeerTypes)
+    let max = gift.weight;
+    let reindeers = reindeerTypes
       .map((x) => [x.type, x.weightCapacity])
-      .filter((x) => x[1] < currentMax)
-      .sort((x, y) => y[1] - x[1]);
-    let currentCapacity = weights.reduce((acc, curr) => (acc += curr[1]), 0);
+      .filter((x) => x[1] < max)
+      .sort((a, b) => a[1] - b[1]); // Menor a Mayor
 
-    let reindeerQuantity = weights.map(([type, weight]) => {
-      let quantity = (currentMax / currentCapacity) >> 0;
-      currentCapacity -= weight;
-      currentMax -= quantity * weight;
-      return { type, num: quantity };
+    let res = reindeers.map(([type]) => ({
+      type,
+      num: 0,
+    }));
+
+    reindeers.map((r, i, arr) => {
+      let sliced = arr.slice(0, arr.length - i)
+      let sum = sliced.reduce((sum, e) => sum + e[1], 0);
+      sliced.map((_, i) => {
+        res[i].num += Math.floor(max / sum);
+      });
+      max %= sum;
     });
 
-    return { country: gift.country, reindeers: reindeerQuantity };
+    return {
+      country: gift.country,
+      reindeers: res.reverse(),
+    };
   });
 }
 
