@@ -244,25 +244,25 @@ test("Custom Test", () => {
     howManyReindeers(
       [
         { type: 'Diesel', weightCapacity: 1 },
-        { type: 'Gasoline', weightCapacity: 5 }
+        { type: 'Gasoline', weightCapacity: 8 }
       ],
       [
-        { country: 'Colombia', weight: 53 },
+        { country: 'Colombia', weight: 50 },
         { country: 'España', weight: 20 }
       ])
   ).toStrictEqual([
     {
       country: 'Colombia',
       reindeers: [
-        { type: 'Gasoline', num: 8 },
-        { type: 'Diesel', num: 13 }
+        { type: 'Gasoline', num: 5 },
+        { type: 'Diesel', num: 10 }
       ]
     },
     {
       country: 'España',
       reindeers: [
-        { type: 'Gasoline', num: 3 },
-        { type: 'Diesel', num: 5 }
+        { type: 'Gasoline', num: 2 },
+        { type: 'Diesel', num: 4 }
       ]
     }
   ])
