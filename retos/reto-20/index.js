@@ -11,8 +11,8 @@ function howManyReindeers(reindeerTypes, gifts) {
       num: 0,
     }));
 
-    reindeers.map((_, i, arr) => {
-      let sliced = arr.slice(0, arr.length - i)
+    reindeers.map((_, i) => {
+      let sliced = reindeers.slice(0, reindeers.length - i)
       let sum = sliced.reduce((sum, e) => sum + e[1], 0);
       sliced.map((_, i) => {
         res[i].num += Math.floor(max / sum);
