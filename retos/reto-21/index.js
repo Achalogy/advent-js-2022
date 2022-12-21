@@ -15,7 +15,7 @@ function printTable(gifts) {
     " |" + "\n", '')
 
   let top = "+".repeat(lengthGift + lengthQuantity + 7) + "\n"
-  let bottom = top.replace(/\+/g, "*").trim()
+  let bottom = "*".repeat(lengthGift + lengthQuantity + 7)
 
   return top + tables + bottom
 }
