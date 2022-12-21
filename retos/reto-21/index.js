@@ -9,11 +9,10 @@ function printTable(gifts) {
 
   gifts.splice(1, 0, ["-".repeat(lengthGift), "-".repeat(lengthQuantity)])
 
-  let tables = gifts.map(x => {
-    let name = x[0] + " ".repeat(lengthGift - x[0].length)
-    let quantity = x[1] + " ".repeat(lengthQuantity - x[1].length)
-    return "| " + name + " | " + quantity + " |" + "\n"
-  }).join("")
+  let tables = gifts.reduce((str, x) => str +
+    "| " + x[0].padEnd(lengthGift) +
+    " | " + x[1].padEnd(lengthQuantity) +
+    " |" + "\n", '')
 
   let top = "+".repeat(lengthGift + lengthQuantity + 7) + "\n"
   let bottom = top.replace(/\+/g, "*").trim()
