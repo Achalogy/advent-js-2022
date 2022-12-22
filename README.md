@@ -1,4 +1,11 @@
 # 🌟 | Advent JS - Achalogy
+
+Por favor dale a la estrellita y sígueme en YouTube y mis redes, este repositorio me ha costado demasiadas horas de trabajo:
+
+<div align="center">
+<a href="https://wakatime.com/badge/user/dfad5e3e-d673-48d4-a2d9-29c1c546ed80/project/13d232f7-5f61-455e-9881-ad9601346286"><img src="https://wakatime.com/badge/user/dfad5e3e-d673-48d4-a2d9-29c1c546ed80/project/13d232f7-5f61-455e-9881-ad9601346286.svg" alt="wakatime"></a>
+</div>
+
 Repositorio donde estoy subiendo y explicando los retos de [Advent JS](https://adventjs.dev/)
 
 ![Advent JS 2022](https://i.imgur.com/HUihoze.jpg)
