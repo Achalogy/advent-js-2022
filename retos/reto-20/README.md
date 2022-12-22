@@ -83,7 +83,7 @@ howManyReindeers(reindeerTypes, gifts)
 
 ## Análisis Reto 20
 
-Debemos encontrar la forma más óptima de llevar un determinado peso usando una lista de renos, cada tipo reno tiene un peso máximo, así que tendremos que encontrar la cantidad de cada reno que debemos usar. Además de esto, **SIEMPRE** tiene que haber menos o igual cantidad de renos que los de tipo inferior.
+Debemos encontrar la forma más óptima de llevar un determinado peso usando una lista de renos, cada tipo de reno tiene un peso máximo que puede soportar, así que tendremos que encontrar la cantidad de renos de cada tipo que debemos usar. Además de esto, **SIEMPRE** tiene que haber menor o igual cantidad de renos que los de tipo anterior(mayor capacidad de carga).
 
 Es decir que si tenemos:
 
