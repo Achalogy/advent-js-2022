@@ -51,6 +51,12 @@ En el ejemplo anterior, la primer caja cabe en la tercera, y la tercera en la se
 
 # Solución al Reto 4
 
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8HLJUp9zvTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Ver Video](https://youtu.be/8HLJUp9zvTs)
+</div>
+
 ## Análisis
 
 Debemos organizar las cajas en orden ascendente según su tamaño (de menor a mayor), luego podremos comprobar sus tamaños para confirmar que cada una cabe en la siguiente. 

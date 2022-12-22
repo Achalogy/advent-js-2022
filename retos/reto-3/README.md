@@ -24,6 +24,12 @@ Cosas a tener en cuenta:
 
 # Solución al Reto 3
 
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rCFlRQHvTQ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Ver Video](https://youtu.be/rCFlRQHvTQ8)
+</div>
+
 ## Análisis
 
 Debemos conseguir la longitud del nombre de cada reno y de cada regalo para luego dividir el peso máximo que pueden cargar los renos y el peso de cada caja, así tendremos muy probablemente un número tipo float, por tanto, tendremos que redondearlo hacia abajo, ya que no podemos dividir cajas.
