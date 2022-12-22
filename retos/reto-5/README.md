@@ -50,9 +50,7 @@ getMaxGifts([50, 70, 30], 100, 4) // 100
 # Solución al reto 5
 
 <div align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BcpHWwe0ZIE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[Ver Video](https://youtu.be/BcpHWwe0ZIE)
+  <a href="https://youtu.be/BcpHWwe0ZIE">Ver Video</a>
 </div>
 
 ## Análisis

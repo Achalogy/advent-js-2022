@@ -27,9 +27,7 @@ Como ves, el papel de regalo envuelve el string. Por arriba y por abajo, para no
 # Solución al Reto 1
 
 <div align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AlsPi16-xgI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[Ver Video](https://youtu.be/AlsPi16-xgI)
+  <a href="https://youtu.be/AlsPi16-xgI">Ver Video</a>
 </div>
 
 ## Análisis

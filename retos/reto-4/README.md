@@ -52,9 +52,7 @@ En el ejemplo anterior, la primer caja cabe en la tercera, y la tercera en la se
 # Solución al Reto 4
 
 <div align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8HLJUp9zvTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[Ver Video](https://youtu.be/8HLJUp9zvTs)
+  <a href="https://youtu.be/8HLJUp9zvTs">Ver Video</a>
 </div>
 
 ## Análisis

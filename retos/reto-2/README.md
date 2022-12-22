@@ -28,9 +28,7 @@ Cosas a tener en cuenta y consejos:
 # Solución al Reto 2
 
 <div align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ffPb7gMjaNE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[Ver Video](https://youtu.be/ffPb7gMjaNE)
+  <a href="https://youtu.be/ffPb7gMjaNE">Ver Video</a>
 </div>
 
 ## Análisis

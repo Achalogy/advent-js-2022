@@ -25,9 +25,7 @@ Cosas a tener en cuenta:
 # Solución al Reto 3
 
 <div align="center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rCFlRQHvTQ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[Ver Video](https://youtu.be/rCFlRQHvTQ8)
+  <a href="https://youtu.be/rCFlRQHvTQ8">Ver Video</a>
 </div>
 
 ## Análisis
