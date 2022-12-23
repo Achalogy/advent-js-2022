@@ -33,6 +33,10 @@ Como ves, los almacénes pueden tener el mismo regalo repetido varias veces. Per
 
 # Solución al reto 7
 
+<div align="center">
+  <a href="https://youtu.be/-d93s9GGr0I">Ver Video</a>
+</div>
+
 ## Análisis
 
 Debemos obtener una lista sin repeticiones de todos los regalos y luego comprobar si este es parte de una lista o más de una. Si es parte lo añadiremos al array que retornaremos.
