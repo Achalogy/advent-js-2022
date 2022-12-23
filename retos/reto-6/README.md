@@ -55,6 +55,7 @@ const cube = createCube(2)
 <div align="center">
   <a href="https://youtu.be/-d93s9GGr0I">Ver Video</a>
 </div>
+
 ## Análisis
 
 Dado un número `n`, crear un cubo de `n` tamaño, por ejemplo, un cubo de `n = 3`
