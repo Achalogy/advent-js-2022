@@ -21,14 +21,14 @@
     "test:14": "jest -i retos/reto-14/reto14.test.js",
     "test:15": "jest -i retos/reto-15/reto15.test.js",
     "test:16": "jest -i retos/reto-16/reto16.test.js",
-    "test:16": "jest -i retos/reto-17/reto17.test.js",
-    "test:16": "jest -i retos/reto-18/reto18.test.js",
-    "test:16": "jest -i retos/reto-19/reto19.test.js",
-    "test:16": "jest -i retos/reto-20/reto20.test.js",
-    "test:16": "jest -i retos/reto-21/reto21.test.js",
-    "test:16": "jest -i retos/reto-22/reto22.test.js",
-    "test:16": "jest -i retos/reto-23/reto23.test.js",
-    "test:16": "jest -i retos/reto-24/reto24.test.js"
+    "test:17": "jest -i retos/reto-17/reto17.test.js",
+    "test:18": "jest -i retos/reto-18/reto18.test.js",
+    "test:19": "jest -i retos/reto-19/reto19.test.js",
+    "test:20": "jest -i retos/reto-20/reto20.test.js",
+    "test:21": "jest -i retos/reto-21/reto21.test.js",
+    "test:22": "jest -i retos/reto-22/reto22.test.js",
+    "test:23": "jest -i retos/reto-23/reto23.test.js",
+    "test:24": "jest -i retos/reto-24/reto24.test.js"
   },
   "repository": {
     "type": "git",
