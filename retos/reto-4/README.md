@@ -63,7 +63,7 @@ Debemos organizar las cajas en orden ascendente según su tamaño (de menor a ma
 
 Al ser este un reto de nivel medio, usaremos funciones más complejas, entre ellas [sort](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/sort) y [every](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/every).
 
-Necesitaremos distinguir entre > y <, además de conocer como funcionan las listas.
+Necesitaremos distinguir entre `>` y `<`, además de conocer como funcionan las listas.
 
 ### Ordenar las cajas de menor a mayor
 
@@ -73,9 +73,9 @@ En el método `sort(compareFuncion)` se nos pedirá una función de comparación
 
 Esta función deberá retornar un número (en strings comparará los valores ASCII de las letras), por tanto:
 
- - Si retorna menor a 0, el valor `a` se situará antes que `b`, es decir, viene primero
- - Si retorna 0 se deja en el mismo lugar, pero ordenados con respecto a los demás elementos.
- - Si retorna mayor a 0, el valor `a` se situará después que `b`, es decir, viene después.
+ - Si retorna menor a **0**, el valor `a` se situará antes que `b`, es decir, viene primero
+ - Si retorna **0** se deja en el mismo lugar, pero ordenados con respecto a los demás elementos.
+ - Si retorna mayor a **0**, el valor `a` se situará después que `b`, es decir, viene después.
 
 Por tanto, haremos lo siguiente: 
 
@@ -86,7 +86,7 @@ boxes.sort((a, b) => {
 })
 ```
 
-Sumaremos todos los lados de a y todos los lados de b, para luego restarlos, si cambiamos de lugar b y a, estos se ordenarán de mayor a menor.
+Sumaremos todos los lados de `a` y todos los lados de `b`, para luego restarlos, si cambiamos de lugar `b` y `a`, estos se ordenarán de mayor a menor.
 
 ### Confirmar si todos los elementos del array cumplen con la condición
 
@@ -100,7 +100,7 @@ La condición es que la caja anterior sea más pequeña, ya que tenemos las caja
 ]
 ```
 
-Si tomamos la caja en index 1, es decir `{ l: 2, w: 2, h: 2 }`, comprobaremos la caja anterior, es decir `{ l: 1, w: 1, h: 1 }`, se cumplirá la condición si `l, w y h` son mayores en la caja que está en index más alto.
+Si tomamos la caja en index 1, es decir `{ l: 2, w: 2, h: 2 }`, comprobaremos la caja anterior, es decir `{ l: 1, w: 1, h: 1 }`, se cumplirá la condición si `l, w y h` son mayores en la caja que está en la siguiente posición del arreglo.
 
 ```js
 { l: 2, w: 2, h: 2 } Caja index 1
