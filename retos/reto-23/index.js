@@ -4,7 +4,7 @@ function executeCommands(commands) {
   let cmd = {
     MOV: (x) => {
       let mov = x.split(",")[0].split(" ")[1]
-      cpu[+x.at(-1)] = (cpu[+mov.at(-1)] * +mov.startsWith("V")) + (~~+mov)
+      cpu[+x.at(-1)] = (cpu[+mov.at(-1)] * +mov.startsWith("V")) + ~~mov
     },
     ADD: (x) => {
       let v1 = +x.split(",")[0].at(-1)
