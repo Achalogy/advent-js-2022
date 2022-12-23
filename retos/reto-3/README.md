@@ -4,7 +4,7 @@ Tienes una caja de regalos de Navidad que Santa Claus quiere entregar a los niñ
 
 Santa Claus también tiene una lista de renos que pueden ayudarlo a entregar los regalos. Cada reno tiene un **límite de peso máximo** que puede llevar. El límite de peso máximo de cada reno es **igual a dos veces el número de letras en su nombre**.
 
-Tu tarea es implementar una función distributeGifts(packOfGifts, reindeers) que recibe una caja de regalos y una lista de renos y devuelve el número máximo de cajas de estos regalos que Santa Claus puede entregar a los niños. **Las cajas de regalos no se pueden dividir**.
+Tu tarea es implementar una función `distributeGifts(packOfGifts, reindeers)` que recibe una caja de regalos y una lista de renos y devuelve el número máximo de cajas de estos regalos que Santa Claus puede entregar a los niños. **Las cajas de regalos no se pueden dividir**.
 
 ```js
 const packOfGifts = ["book", "doll", "ball"]
@@ -30,15 +30,15 @@ Cosas a tener en cuenta:
 
 ## Análisis
 
-Debemos conseguir la longitud del nombre de cada reno y de cada regalo para luego dividir el peso máximo que pueden cargar los renos y el peso de cada caja, así tendremos muy probablemente un número tipo float, por tanto, tendremos que redondearlo hacia abajo, ya que no podemos dividir cajas.
+Debemos conseguir la longitud del nombre de cada reno y de cada regalo para luego dividir el peso máximo que pueden cargar los renos y el peso de cada caja, así obtendremos un número que probablemente sea de tipo float, por tanto, tendremos que redondearlo hacia abajo, ya que no podemos dividir cajas.
 
 ## ¿Que vamos a usar? 
 
-En esta solución solo usaremos cosas básicas de strings y arrays, como join y length.
+En esta solución solo usaremos cosas básicas de Strings y Arrays, como join y length.
 
 ## Conseguir longitud de las palabras
 
-Podríamos mapear reno por reno y luego sumarlo, y hacer lo mismo con los regalos, pero simplemente podemos unir los nombres en un solo string y hayar su longitud. Es decir:
+Podríamos mapear reno por reno y luego sumarlo, y hacer lo mismo con los regalos, pero simplemente podemos unir los nombres en un solo String y hayar su longitud. Es decir:
 
 Tenemos dos renos, *Dasher* y *Dancer*, cada uno tiene 6 letras en su nombre, por lo tanto, tenemos que cada reno puede cargar `6 * 2 = 12` de peso y juntos `(6 * 2) + (6 * 2) = 24`, pero si sumamos los dos nombres, tendremos la misma respuesta, `12 * 2 = 24)`
 
