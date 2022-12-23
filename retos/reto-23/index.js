@@ -19,10 +19,11 @@ function executeCommands(commands) {
       cpu[+x.at(-1)] = (((cpu[+x.at(-1)] - 1) % 256) + 256) % 256
     },
     JMP: (x) => {
-      if (cpu[0] != 0) {
-        commands = commands
-          .concat(commands.slice(+x.split(" ").at(-1), commands.indexOf(x) + 1))
-      }
+      commands = commands
+        .concat(
+          commands.slice(+x.split(" ").at(-1),
+            (commands.indexOf(x) + 1) * !!cpu[0])
+        )
     }
   }
 
@@ -32,3 +33,12 @@ function executeCommands(commands) {
 
   return cpu
 }
+
+
+executeCommands([
+  'MOV 10,V00', // V00 es 10
+  'DEC V00',    // decrementa V00 en 1  <---┐
+  'INC V01',    // incrementa V01 en 1      |
+  'JMP 1',      // bucle hasta que V00 sea 0 ----┘
+  'INC V06'     // incrementa V06 en 1
+])
