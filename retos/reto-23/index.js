@@ -4,8 +4,8 @@ function executeCommands(commands) {
   let cmd = {
     MOV: (x) => {
       let mov = x.split(",")[0].split(" ")[1]
-      cpu[+x.at(-1)] = mov.startsWith("V")
-        ? cpu[+mov.at(-1)] : +mov
+      cpu[+x.at(-1)] = +mov;
+      (mov.startsWith("V") && (cpu[+x.at(-1)] = cpu[+mov.at(-1)]));
     },
     ADD: (x) => {
       let v1 = +x.split(",")[0].at(-1)
@@ -35,10 +35,12 @@ function executeCommands(commands) {
 }
 
 
-executeCommands([
-  'MOV 10,V00', // V00 es 10
-  'DEC V00',    // decrementa V00 en 1  <---┐
-  'INC V01',    // incrementa V01 en 1      |
-  'JMP 1',      // bucle hasta que V00 sea 0 ----┘
-  'INC V06'     // incrementa V06 en 1
-])
+console.log(
+  executeCommands([
+    'MOV 10,V00',
+    'MOV V00,V01',
+    'MOV V01,V02',
+    'MOV V02,V03',
+    'MOV V03,V04'
+  ])
+)
