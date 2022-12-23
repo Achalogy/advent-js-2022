@@ -32,14 +32,3 @@ function executeCommands(commands) {
 
   return cpu
 }
-
-
-console.log(
-  executeCommands([
-    'MOV 10,V00',
-    'MOV V00,V01',
-    'MOV V01,V02',
-    'MOV V02,V03',
-    'MOV V03,V04'
-  ])
-)
