@@ -7,7 +7,7 @@ function canExit(maze) {
   }
 
   let x = [];
-  new Array(20).fill(0).forEach(() => {
+  new Array(maze[0].length * maze.length).fill(0).forEach(() => {
     let check = [...maze];
     maze.map((horizontal, i) => {
       maze[i] = replace(horizontal.join(""));
