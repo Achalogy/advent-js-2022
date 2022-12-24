@@ -3,24 +3,19 @@ function canExit(maze) {
     return str
       .replace(/[S][\sE]/g, "SS")
       .replace(/[\sE][S]/g, "SS")
-      .split("")
+      .split("");
   }
-  
-  function test() {
-    let check = [...maze]
+
+  let x = [];
+  new Array(20).fill(0).forEach(() => {
+    let check = [...maze];
     maze.map((horizontal, i) => {
-      maze[i] = replace(horizontal.join(""))
-      let v = maze[0].map((_, i) => {
-        return(replace(maze.map(x => x[i]).join("")))
-      })
-      maze[i] = v.map(x => x[i])
-    })
-    if(check.flat().join("") == maze.flat().join("")) {
-      return check
-    }else {
-      return test()
-    }
-  }
+      maze[i] = replace(horizontal.join(""));
+      let v = maze[0].map((_, i) => replace(maze.map((x) => x[i]).join("")));
+      maze[i] = v.map((x) => x[i]);
+    });
+    check.flat().join("") == maze.flat().join("") && x.push(check);
+  });
   
-  return !test().flat().includes("E")
+  return !x.flat(2).includes("E");
 }
