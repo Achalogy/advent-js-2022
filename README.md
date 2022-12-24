@@ -37,7 +37,7 @@ Repositorio donde estoy subiendo y explicando los retos de [Advent JS](https://a
 |<img src="https://i.imgur.com/9eyxAFH.png" width="50" height="50" /> |  21  |            Creando la tabla de regalos            |       🟠       | [Ver](https://adventjs.dev/challenges/2022/21) | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-21) |            NO DISPONIBLE            |
 |<img src="https://i.imgur.com/sANx7vo.png" width="50" height="50" /> |  22  |            La iluminación en sintonía             |       🟢       | [Ver](https://adventjs.dev/challenges/2022/22) | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-22) |            NO DISPONIBLE            |
 |<img src="https://i.imgur.com/8UEEMyH.png" width="50" height="50" /> |  23  |              Compilador de Papá Noel              |       🔴       | [Ver](https://adventjs.dev/challenges/2022/23) | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-23) |            NO DISPONIBLE            |
-|<img src="https://i.imgur.com/FmXcVms.png" width="50" height="50" /> |  24  |                    ??????????                     |       ?        |                  NO DISPONIBLE                 |                                NO DISPONIBLE                                  |            NO DISPONIBLE            |
+|<img src="https://i.imgur.com/FmXcVms.png" width="50" height="50" /> |  24  |           El último reto es un laberito           |       🔴       | [Ver](https://adventjs.dev/challenges/2022/24) | [Spoiler](https://github.com/Achalogy/advent-js-2022/tree/main/retos/reto-24) |            NO DISPONIBLE            |
 [^1]: **Dificultad**: 🟢 Facil 🟠 Media 🔴 Dificil 🟣 Muy Dificil
 
 
