@@ -32,3 +32,5 @@ function executeCommands(commands) {
 
   return cpu
 }
+
+module.exports = executeCommands
