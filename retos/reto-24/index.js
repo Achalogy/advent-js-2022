@@ -19,3 +19,5 @@ function canExit(maze) {
   
   return !x.flat(2).includes("E");
 }
+
+module.exports = canExit
