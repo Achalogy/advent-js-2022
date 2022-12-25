@@ -37,3 +37,9 @@ test("Test #5", () => {
     checkStepNumbers(["house", "house", "tree_1", "tree_1", "house", "tree_2", "tree_2", "tree_3"], [5, 2, 1, 2, 3, 4, 5, 6])
   ).toStrictEqual(false)
 })
+
+test("Custom Test", () => {
+  expect(
+    checkStepNumbers(["tree_1", "tree_2", "house", "tree_1", "tree_2", "house"], [1, 33, 10, 2, 33, 20])
+  ).toStrictEqual(false)
+})
