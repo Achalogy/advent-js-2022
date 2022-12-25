@@ -19,7 +19,7 @@ const cube = createCube(3)
   \/_/_/_/
 ```
 
-Como ves el cubo tiene tres caras visualmente. Los símbolos que se usan para construir las caras del cubo son: /, \, _ y (espacio en blanco).
+Como ves el cubo tiene tres caras visualmente. Los símbolos que se usan para construir las caras del cubo son: `/`, `\`, `_` y ` `(espacio en blanco).
 
 Otros ejemplos de cubos:
 
@@ -71,7 +71,7 @@ Dado un número `n`, crear un cubo de `n` tamaño, por ejemplo, un cubo de `n = 
 
 ## ¿Qué vamos a usar? 
 
-En este reto solo usaremos conceptos básicos de arrays y el método `.repeat ()`de strings.
+En este reto solo usaremos conceptos básicos de Arrays y el método `.repeat()`de Strings.
 
 ## ¿Cómo lo vamos a hacer? 
 
@@ -102,7 +102,7 @@ function createCube(size) {
 }
 ```
 
-Usaremos `i = 1` en lugar de 0 y `i <= size`, ya que de lo contrario no se crearían los niveles suficientes.
+Usaremos `i = 1` en lugar de 0 y `i <= size`, ya que de lo contrario no se formaría el cubo con las medidas esperadas.
 
 ## Niveles de `Head`
 
@@ -128,7 +128,7 @@ Como podemos ver, los símbolos podemos separarlos en dos grupos:
 /\/\/\    _\_\_\  // Nivel 3
 ```
 
-La primera parte podemos definirla sencillamente como `"/\\".repeat(i)`, no olvidemos que para poder mostrar por pantalla el símbolo \, debemos escribirlo dos veces, de lo contrario no se mostrará.
+La primera parte podemos definirla sencillamente como `"/\\".repeat(i)`, no olvidemos que para poder mostrar por pantalla el símbolo `\`, debemos escribirlo dos veces, de lo contrario no se mostrará.
 
 Y la segunda parte siempre es igual, así que: `"_\\".repeat(size)`.
 
