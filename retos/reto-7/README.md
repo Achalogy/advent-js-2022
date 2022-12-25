@@ -39,7 +39,7 @@ Como ves, los almacénes pueden tener el mismo regalo repetido varias veces. Per
 
 ## Análisis
 
-Debemos obtener una lista sin repeticiones de todos los regalos y luego comprobar si este es parte de más de una lista. Si esto no se cumple lo añadiremos al array que retornaremos.
+Debemos obtener una lista sin repeticiones de todos los regalos y luego comprobar si este es parte de más de una lista. Si esto no se cumple, es decir que solo esta en una lista, lo añadiremos al array que retornaremos.
 
 ## ¿Qué vamos a usar? 
 
