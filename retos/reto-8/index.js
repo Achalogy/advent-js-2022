@@ -5,7 +5,7 @@ function checkPart(part) {
   })
 }
 
-function checkPartOptimized(part) {
+function checkPartOptimized(part) {  // No funciona ahora, fixeado en advent
   let arr = [...part].slice(1);
   let rev = [...part].reverse();
   let x = arr.join("") == arr.reverse().join("");
