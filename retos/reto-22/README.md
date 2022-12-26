@@ -169,21 +169,13 @@ stepNumbers[i + 1 + systemNames.slice(i + 1).indexOf(e)]
 
 ## Sumar 1 si es el mismo que estamos comparando
 
-Si restamos el index de la última aparición del elemento, con el elemento que nos da la iteración de la lista original y este nos da `0`, convirtiéndolo a `boolean` se transformara a `false`, con el operador `!` lo convertimos a `true`, y lo sumamos a nuestro valor.
+Si restamos el index de la última aparición del elemento, con el elemento que nos da la iteración de la lista original y este nos da `0`, luego con el operador `!` lo convertimos a `true`, y lo sumamos a nuestro valor.
 
-En el caso de que no sea la última aparición del elemento en la lista, el `Boolean(...)` nos dará `true` y con el operador `!` se convertirá en `false` y lo sumaremos al valor, es decir, sumaremos `0`
+En el caso de que no sea la última aparición del elemento en la lista, con el operador `!` se convertirá en `false` y lo sumaremos al valor, es decir, sumaremos `0`
 
 ```js
 return systemNames.every((e, i) => 
-<<<<<<< HEAD
-<<<<<<< HEAD
   stepNumbers[i] <= stepNumbers[...] + !(systemNames.lastIndexOf(e) - i)
-=======
-  stepNumbers[i] <= stepNumbers[...] + !systemNames.lastIndexOf(e) - i
->>>>>>> d152aac238d9162812005ab555d9c08dfbaed894
-=======
-  stepNumbers[i] <= stepNumbers[...] + !Boolean(systemNames.lastIndexOf(e) - i)
->>>>>>> parent of ba04d93 (🐛 Quitar Boolean() Innecesario)
 )
 ```
 
