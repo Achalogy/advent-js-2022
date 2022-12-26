@@ -175,7 +175,11 @@ En el caso de que no sea la última aparición del elemento en la lista, con el 
 
 ```js
 return systemNames.every((e, i) => 
+<<<<<<< HEAD
   stepNumbers[i] <= stepNumbers[...] + !(systemNames.lastIndexOf(e) - i)
+=======
+  stepNumbers[i] <= stepNumbers[...] + !systemNames.lastIndexOf(e) - i
+>>>>>>> d152aac238d9162812005ab555d9c08dfbaed894
 )
 ```
 
