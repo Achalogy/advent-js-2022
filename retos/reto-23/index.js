@@ -9,13 +9,13 @@ function executeCommands(commands) {
     ADD: (x) => {
       let v1 = +x.split(",")[0].at(-1)
       let v2 = +x.split(",")[1].at(-1)
-      cpu[v1] = (cpu[v1] + cpu[v2]) % 256
+      cpu[v1] = (cpu[v1] + cpu[v2]) & 256
     },
     INC: (x) => {
-      cpu[+x.at(-1)] = (cpu[+x.at(-1)] + 1) % 256
+      cpu[+x.at(-1)] = (cpu[+x.at(-1)] + 1) & 255
     },
     DEC: (x) => {
-      cpu[+x.at(-1)] = (((cpu[+x.at(-1)] - 1) % 256) + 256) % 256
+      cpu[+x.at(-1)] = (cpu[+x.at(-1)] - 1) & 255
     },
     JMP: (x) => {
       commands = commands
