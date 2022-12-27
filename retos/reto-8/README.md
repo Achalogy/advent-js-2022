@@ -24,7 +24,11 @@ checkPart("midu") // false
 // "midu" no puede ser un palíndromo después de eliminar un carácter
 ```
 
-# Solución al reto 6
+# Solución al reto 8
+
+<div align="center">
+  <a href="https://youtu.be/QGjEV-GvmKI">Ver Video</a>
+</div>
 
 ## Análisis
 
