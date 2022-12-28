@@ -132,7 +132,6 @@ heights.length > 1
 ```js
 function checkJump(heights) {
   const left = heights.splice(0, heights.indexOf(Math.max(...heights)))
-  console.log(heights)
   const conditionLeft = left
     .slice(1)
     .every((l, i) => l >= left[i])
