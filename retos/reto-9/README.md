@@ -41,6 +41,10 @@ countTime([0, 0, 1, 0, 0]) // 28
 
 # Solución Reto 9
 
+<div align="center">
+  <a href="https://youtu.be/yvuM5smJ7Zo">Ver Video</a>
+</div>
+
 ## Análisis Reto 9
 
 Usaremos el ejemplo de una lista `[0, 1, 0, 0, 1, 0, 0, 0]`
