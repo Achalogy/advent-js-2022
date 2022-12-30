@@ -40,6 +40,10 @@ Necesitamos que el programa devuelva un `boolean` que indique si el trineo hace 
 
 # Solución Reto 10
 
+<div align="center">
+  <a href="https://youtu.be/fsQ6lOhLUj8">Ver Video</a>
+</div>
+
 ## Análisis Reto 10
 
  1. Separaremos la lista de números justo en donde está el número más alto
