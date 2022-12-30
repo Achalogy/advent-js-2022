@@ -56,7 +56,7 @@ let totalRed = +total[0] * 3600 + +total[1] * 60 + +total[2]
 
 ##  Encontrar MCD
 
- > En las matemáticas, se define el máximo común divisor (abreviado MCD) de dos o más números enteros al mayor número entero que los divide sin dejar residuo alguno. [Wikipedia](https://es.wikipedia.org/wiki/M%C3%A1ximo_com%C3%BAn_divisor)
+> En las matemáticas, se define el máximo común divisor (abreviado MCD) de dos o más números enteros al mayor número entero que los divide sin dejar residuo alguno. [Wikipedia](https://es.wikipedia.org/wiki/M%C3%A1ximo_com%C3%BAn_divisor)
 
 Para esto usaremos el [Algoritmo de Euclides](https://es.wikipedia.org/wiki/Algoritmo_de_Euclides):
 
