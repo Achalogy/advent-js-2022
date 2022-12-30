@@ -27,6 +27,10 @@ getCompleted('03:30:30', '05:50:50') // '3/5
 
 # Solución Reto 11
 
+<div align="center">
+  <a href="https://youtu.be/mi2Yc7tAYmo">Ver Video</a>
+</div>
+
 ## Análisis Reto 11
 
 1. Convertir las horas dadas a segundos
