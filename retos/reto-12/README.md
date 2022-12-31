@@ -40,6 +40,10 @@ selectSleigh(distance, sleighs) // => "Dancer"
 
 # Solución Reto 12
 
+<div align="center">
+  <a href="https://youtu.be/cnoYD67Ww9A">Ver Video</a>
+</div>
+
 ## Análisis Reto 12
 
  1. Encontrar los que pueden recorrer la distancia con un máximo de consumo de 20W
