@@ -87,7 +87,7 @@ Los 0 que están al final de la lista, tienen que ser encendidos en consecuencia
 [1, 1, ... 1, 0, 0, 1]
 ```
 
-Por tanto, podemos mover estos últimos 0 al inicio y tendremos el mismo resultado:
+Por tanto, podemos mover estos últimos `0` al inicio y tendremos el mismo resultado:
 
 ```js
 [0, 0, 0, 0, 1, 0, 0, 1]
@@ -102,7 +102,7 @@ console.log(
 )
 ```
 
-Así que uniremos el primer string con el último, el que nos da el método `.pop()`
+Así que uniremos el primer string del array con el último(el que nos da el método `.pop()`)
 
 ```js
 let arr = leds.join("").split("1")
@@ -113,13 +113,13 @@ console.log(arr) // ["0000", "00"]
 
 ## Encontrar el string más largo
 
-Desde el punto de vista del ejercicio, debemos contar cuantas veces comprobamos que el 0 tiene un 1 a su izquierda para encenderse.
+Desde el punto de vista del ejercicio, debemos contar cuantas veces comprobamos que el `0` tiene un `1` a su izquierda para encenderse.
 
 ```js
 [0, 1, 0, 0, 1, 0, 0, 0]
 ```
 
-El 1 en `index = 1` tiene 4 ceros a su izquierda, es decir que 4 veces tardara en encender todos los 0 a su izquierda, mientras que el 1 en `index = 4` tiene solo 2, por tanto nuestra respusta debe ser `4 * 7 = 28`, recordemos que 7 es el número de segundos que tardar encender el led.
+El 1 en `index = 1` tiene **4 ceros** a su izquierda, es decir que **4** veces tardara en encender todos los `0` a su izquierda, mientras que el `1` en `index = 4` tiene solo **2**, por tanto nuestra respuesta debe ser `4 * 7 = 28`, recordemos que **7 es el número de segundos que tarda en encender cada led**.
 
 ### String -> length
 
