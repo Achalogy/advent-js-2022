@@ -63,7 +63,7 @@ Tenemos, por ejemplo, la palabra `miidim`, la cual al eliminar una de las i, se 
 
 ## Eliminar una de las letras
 
-Ya que tenemos la palabra separada en un array, vamos a eliminar letra por letra y luego sort comprobara si alguna de estas es correcta:
+Ya que tenemos la palabra separada en un array, vamos a eliminar letra por letra y luego el método `.some()` comprobara si alguna de estas es un palíndromo, en caso de cumplirse retornara true:
 
 ```js
 // i = Index del elemento del array
@@ -85,7 +85,7 @@ En iteraciones del `some`, la variable `w` será igual a:
 ["m", "i", "i", "d", "i"] // false
 ```
 
-Como vemos, hay 3 casos en los que se cumple que la palabra sea palíndromo al eliminar un máximo de una letra.
+Como vemos, en 3 casos la palabra es un palíndromo al eliminar un máximo de una letra, esto cumple la condición inicial y por lo tanto retorna **true**.
 
 ### Comprobar que es un palíndromo
 
