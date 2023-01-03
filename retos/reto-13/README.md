@@ -40,6 +40,10 @@ getFilesToBackup(lastBackup, changes) // => [ 1, 3 ]
 
 # Solución Reto 13
 
+<div align="center">
+  <a href="https://youtu.be/zLWjdR-6SHc">Ver Video</a>
+</div>
+
 ## Análisis Reto 13
 
  1. Filtrar las fechas posteriores al último backup
