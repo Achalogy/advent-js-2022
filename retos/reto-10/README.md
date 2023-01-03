@@ -35,8 +35,8 @@ Necesitamos que el programa devuelva un `boolean` que indique si el trineo hace 
 
 **A tener en cuenta:**
 
- - ara que el salto sea válido tiene que subir una vez y bajar una vez. Si durante el salto se queda en la misma altura entre dos posiciones, la parábola continua.
- - o hace falta que el punto de inicio y final sean el mismo (las ciudades pueden estar a diferentes alturas).
+ - Para que el salto sea válido tiene que subir una vez y bajar una vez. Si durante el salto se queda en la misma altura entre dos posiciones, la parábola continua.
+ - No hace falta que el punto de inicio y final sean el mismo (las ciudades pueden estar a diferentes alturas).
 
 # Solución Reto 10
 
@@ -117,10 +117,14 @@ i=1 - 1 >= 3
 
 ### No iniciar por el más grande
 
-Revisaremos que la lista no inicie desde el número más alto, si es el caso `left.length = 0`, por tanto, usaremos el símbolo `!` para convertirlo en `true`, ya que `false = 0` y una vez más para convertir el `true` en `false`. Esto también se puede hacer con la condición `left.length != 0`
+Revisaremos que la lista no inicie desde el número más alto, si es el caso `left.length = 0`, por tanto, usaremos el símbolo `!` para convertirlo en `true`, ya que `false = 0` y una vez más para convertir el `true` en `false`. Esto también se puede hacer con la condición `left.length != 0` o con `Boolean(left.length)`(utilizando el constructor).
 
 ```js
 !!left.length
+left.length != 0
+Boolean(left.length)
+
+//cualquiera de estás opciones es válida pero en este caso usaremos la 1era
 ```
 
 ## No terminar por el ultimo
