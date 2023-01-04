@@ -4,9 +4,9 @@ Papa Noél está un poco preocupado porque los preparativos están llevando much
 
 Le dicen la duración esperada de las tareas con un string con el formato hh:mm:ss y en el mismo formato cuánto tiempo llevan trabajando en ella.
 
-Pero Papa Noél no se entera rápidamente si falta o mucho para que termine, así que nos ha pedido que hagamos un programa que nos indique la porción de la tarea que ya se ha completado.
+Pero Papa Noél no se entera rápidamente si falta mucho para que termine, así que nos ha pedido que hagamos un programa que nos indique la porción de la tarea que ya se ha completado.
 
-Por ejemplo, si la tarea dura `03:00:00` y llevan trabajando `01:00:00` entonces ya han completado 1/3 de la tarea. En código:
+Por ejemplo, si la tarea dura `03:00:00` y llevan trabajando `01:00:00` entonces ya han completado `1/3` de la tarea. En código:
 
 ```js
 getCompleted('01:00:00', '03:00:00') // '1/3'
@@ -19,11 +19,11 @@ getCompleted('03:30:30', '05:50:50') // '3/5
 
 **Ten en cuenta:**
 
- - El formato de la hora es hh:mm:ss.
- - El formato de la salida es un string a/b donde a es la porción de la tarea que ya se ha completado y b es la porción de la tarea que falta por completar.
- - La porción siempre se muestra con la menor fracción posible. (por ejemplo, nunca se mostraría 2/4 porque se puede representar como 1/2).
+ - El formato de la hora es `hh:mm:ss`.
+ - El formato de la salida es un string `a/b` donde `a` es la porción de la tarea que ya se ha completado y `b` es la porción de la tarea que falta por completar.
+ - La porción siempre se muestra con la menor fracción posible. (por ejemplo, nunca se mostraría `2/4` porque se puede representar como `1/2`).
  - Si ya se ha completado la tarea, la fracción sería 1/1.
- - Ningun elfo ha sido maltradado durante la ejecución de este reto ni han tenido que usar Scrum de verdad.
+ - Ningún elfo ha sido maltradado durante la ejecución de este reto ni han tenido que usar Scrum de verdad.
 
 # Solución Reto 11
 
@@ -49,9 +49,9 @@ Primero separaremos la hora dada en array `[HH, MM, SS]` (Horas, minutos y segun
 
 Ya que estos son string, tendremos que usar un `+` antes de la string para convertirlos a número.
 
- - 1 Minuto son 60 Segundos
+ - 1 Minuto son 60 segundos
  - 1 Hora son 60 minutos, es decir `60 * 60 = 3600` segundos
- - 1 Segundo es 1 Segundo, así que solo lo convertimos a número
+ - 1 Segundo es 1 segundo, así que solo lo convertimos a número
 
 ```js
 let partRed = +part[0] * 3600 + +part[1] * 60 + +part[2]
@@ -83,7 +83,7 @@ Usaremos de ejemplo:` getCompleted('02:20:20', '03:30:30')`
 |  2   | 12630 dividido entre 8420 es 1 y sobran 4210 |
 |  3   |   8420 dividido entre 4210 es 2 y sobra 0    |
 
-Siendo el MCD el último Divisor hasta que el residuo sea 0.
+Siendo el MCD el último Divisor hasta que el residuo sea `0`.
 
 ### Aplicación a JavaScript
 
@@ -101,7 +101,7 @@ const MCD = (a, b) => {
 }
 ```
 
-Entonces, mientras b no sea 0 `while(b)`, haremos lo siguiente:
+Entonces, mientras `b` no sea 0 `while(b)`, haremos lo siguiente:
 
 1. Guardar b ya que lo volveremos a usar `c = b`
 2. b ahora será el residuo de la división `a / b `, encontramos el residuo usando `a % b`
