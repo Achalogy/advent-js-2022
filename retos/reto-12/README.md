@@ -2,9 +2,9 @@
 
 Papa Noél tiene nuevos trineos eléctricos pero debe controlar el consumo eléctrico ya que **sólo tiene una batería de 20W**.
 
-Nos dan un **array de trineos, de peor a mejor**, con sus respectivos consumos. Cada trineo es un objeto con dos propiedades: name y consumption.
+Nos dan un **array de trineos, de peor a mejor**, con sus respectivos consumos. Cada trineo es un objeto con dos propiedades: `name` y `consumption`.
 
-El campo consumption es un número que representa la cantidad de vatios (W) que **consume** el trineo para cada **unidad de distancia**. El campo name es una cadena de texto que representa el nombre del trineo.
+El campo consumption es un número que representa la cantidad de vatios (W) que **consume** el trineo para cada **unidad de distancia**. El campo `name` es una cadena de texto que representa el nombre del trineo.
 
 Crea un programa que nos devuelva el nombre del mejor trineo disponible que nos permita cubrir la distancia.
 
@@ -33,10 +33,10 @@ selectSleigh(distance, sleighs) // => "Dancer"
 
 **Recuerda que:**
 
- - La batería siempre es de 20W.
- - La lista de trineos está ordenada de peor a mejor trineo.
+ - La batería **siempre es de 20W**.
+ - La lista de trineos está ordenada de **peor a mejor** trineo.
  - Tienes que devolver el nombre del mejor trineo que nos permita cubrir la distancia con los vatios que tenemos disponibles.
- - Si ningún trineo es usable para la distancia, devuelve null.
+ - Si ningún trineo es usable para la distancia, devuelve `null`.
 
 # Solución Reto 12
 
@@ -46,9 +46,9 @@ selectSleigh(distance, sleighs) // => "Dancer"
 
 ## Análisis Reto 12
 
- 1. Encontrar los que pueden recorrer la distancia con un máximo de consumo de 20W
+ 1. Encontrar los trineos que pueden recorrer la distancia con un **máximo de consumo de 20W**
  2. Filtrar la lista con esa condición
- 3. Retornar el último de la lista, o si no hay, retornar `null`
+ 3. Retornar el último trineo de la lista, o en su defecto, retornar `null`
 
 ## Max Consumo 20W 
 
@@ -81,7 +81,7 @@ function selectSleigh(distance, sleighs) {
 
 ## Validar y retornar
 
-Validaremos si existe un trineo, si no es el caso retornaremos `null`, de lo contrario el nombre del trineo:
+Validaremos si existe un trineo y retornaremos su nombre, si no es el caso retornaremos `null`:
 
 ```js
 return sleigh ? sleigh.name : null
