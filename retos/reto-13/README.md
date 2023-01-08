@@ -4,7 +4,7 @@ Para evitar perder datos cuando el servidor se cae, Papa Noel ha decidido hacer 
 
 Por un lado, tenemos el **timestamp** de cuándo se hizo el último backup.
 
-También tenemos los cambios que se han realizado en un array de arrays. Cada array interno contiene **dos elementos**: el **id** del archivo modificado y el **timestamp** de la modificación.
+También tenemos los cambios que se han realizado en un array de arrays. Cada array interno contiene **dos elementos**: la **id** del archivo modificado y el **timestamp** de la modificación.
 
 Tienes que crear un programa que devuelva un array con las id de los archivos que tendríamos que hacer backup porque han sido modificados desde el último backup y **ordenados de forma ascendente**. Ejemplo:
 
@@ -36,7 +36,7 @@ getFilesToBackup(lastBackup, changes) // => [ 1, 3 ]
 
  - Devuelve la id de los archivos que han sido modificados después del último backup.
  - Devuelve un array vacío si no hay archivos que hacer backup.
- - Recuerda que deben estar ordenados los id de forma ascendente.
+ - Recuerda que deben estar ordenados las id de forma ascendente.
 
 # Solución Reto 13
 
@@ -59,7 +59,7 @@ Para esto haremos un simple `.filter()` con la fecha de modificación que se enc
 let filtered = changes.filter(x => x[1] > lastBackup)
 ```
 
-## Obtener la id y ordenarla
+## Obtener las id y ordenarlas
 
 Ya que el método map retorna una lista, lo usaremos para conseguir una lista de ids de los archivos que fueron modificados.
 
@@ -75,7 +75,7 @@ let sorted = ids.sort((a, b) => a - b)
 
 ## Quitar las ids Repetidas
 
-Usaremos nuevamente el objeto `Set` para obtener una lista sin repeticiones:
+Usaremos el objeto `Set` para obtener una lista sin repeticiones y lo convertiremos a un array usando el spread operator `...`:
 
 ```js
 let flated = [...new Set(sorted)]
@@ -97,4 +97,4 @@ function getFilesToBackup(lastBackup, changes) {
 }
 ```
 
-Este código no es muy complejo, solo necesitas conocer los métodos de los array y lo resolverlás muy facil.
+Este código no es muy complejo, solo necesitas conocer los métodos de los array y lo resolverlás muy fácil.
