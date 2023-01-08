@@ -58,12 +58,12 @@ Iteraremos la lista de derecha a izquierda, es decir desde el nivel con más nú
 //    0    | 3 - Último nivel
 ```
 
-Usando reduce, encontraremos el número más pequeño por cada número en nivel superior y lo sumaremos a este, luego haremos lo mismo hasta llegar al ultimo nivel.
+Para solucionar el reto encontraremos el número más pequeño entre cada par por cada número en nivel superior y lo sumaremos al mismo, repetiremos hasta llegar al ultimo nivel.
 
 
 ## Reversar la lista y usar reduce
 
-Para esto existe el método `.reduceRight()` que funciona de la misma forma que el método `.reduce()` solo que este revisara la lista de derecha a izquierda.
+Podríamos utilizar `reverse()` para revertir la lista e implementar nuestra solución con `reduce()`, pero para esto existe el método `.reduceRight()` que funciona de la misma forma que el método `.reduce()` solo que este revisara la lista de derecha a izquierda.
 
 ```js
 path.reduceRight((previous, current) => {
@@ -87,7 +87,7 @@ Ahora debemos encontrar el número más pequeño que esta en previous, para esto
 //    0
 ```
 
-Así que por cada elemento en la lista `current` revisaremos dos elementos el la lista `previous`, estos serian los que esten en el mismo index y el index superior:
+Así que por cada elemento en la lista `current` revisaremos dos elementos en la lista `previous`, estos serian los que esten en el mismo index y el index superior:
 
 ```js
 //  9 8 1
@@ -98,23 +98,23 @@ Así que por cada elemento en la lista `current` revisaremos dos elementos el la
 
 ```
 
-Y si revisamos, el número 3 esta en `index 0`, por lo tanto revisaremos el número 9 y 8 que estan en `index 0` e `index 1` respecticamente. Mismo caso con el número 4, este esta en el `index 1`, así que revisaremos el `index 1` y el `index 2`, 8 y 1.
+Y si revisamos, el número **3** esta en `index 0`, por lo tanto revisaremos el número **9 y 8** que estan en `index 0` e `index 1` respecticamente. Mismo caso con el número **4**, este esta en el `index 1`**(9 y 8)**, así que revisaremos el `index 1` y el `index 2`**(8 y 1)**.
 
-Sobre estos dos números elegiremos el más pequeño con `Math.min()` luego lo sumaremos al número de current, es decir al 3 y al 4.
+Sobre estos dos números obtendremos el menor de ellos con `Math.min()` luego lo sumaremos al número de current, es decir al 3 y al 4.
 
 ```js
 3 + 8 = 11
 4 + 1 = 5
 ```
 
-Ahora nuestros parametros del método reduceRight serian:
+Ahora nuestros parametros del método `reduceRight()` serían:
 
 ```js
 previous = [11, 5]
 current = [0]
 ```
 
-Así que, nuestro código revisara cual de los dos es el más pequeño y lo sumara a nuestro unico elemento en la lista `current`. Nuestra respuesta seria el número 5.
+Así que, nuestro código revisará cual es el menor de los dos y lo sumara a nuestro único elemento en la lista `current`. Nuestra respuesta sería el número 5.
 
 ## Implementación al Código
 
@@ -142,7 +142,7 @@ current.map((val, index) => {
 }
 ```
 
-Ahora nuestros dos números a comparar serian `previous[index]` y `previous[index+1]`
+Ahora nuestros dos números a comparar serían `previous[index]` y `previous[index+1]`
 
 ```js
 current.map((val, index) => {
@@ -165,7 +165,7 @@ current.map((val, index) => {
 }
 ```
 
-Y `Math.min()` nos dara el mínimo:
+Y `Math.min()` nos dará el mínimo:
 
 ```js
 current.map((val, index) => {
