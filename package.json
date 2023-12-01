@@ -30,10 +30,6 @@
     "test:23": "jest -i retos/reto-23/reto23.test.js",
     "test:24": "jest -i retos/reto-24/reto24.test.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://Achalogy: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@github.com/Achalogy/advent-js-2022.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
